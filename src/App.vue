@@ -25,6 +25,7 @@ import PocketBase from "pocketbase";
       <label>password: </label><br />
       <input type="password" required id="passwd" /><br />
       <button v-on:click="login()">Sign In</button>
+      <button v-on:click="githublogin()">Sign In by gitub</button>
       <button v-on:click="add()">Add</button>
       <p><label id="status"> You are not yet connected </label><br /></p>
     </div>
